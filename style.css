@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.navbar {
+  background-color: white;
+  height: 90px;
+  width: 100vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+.logo {
+  height: 120px;
+  width: 120px;
+  padding: 20px 70px;
+}
+
+.sign {
+  display: flex;
+  margin-left: 50%;
+  padding: 10px;
+}
+
+.sign p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.sign p {
+  padding-left: 15px;
+}
+
+.store {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 100px;
+  margin-left: 40%;
+  margin-top: -2%;
+}
+
+.store p:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.store input {
+  width: 50%;
+  padding: 5px 5px;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  outline: none;
+  background-color: #fffbe0;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+.search {
+  margin-top: -2%;
+
+}
+
+.icon1 {
+  margin-top: -3%;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.icon2 {
+
+  margin-top: -3%;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.slider {
+  padding-top: 20px;
+  width: 90%;
+  height: 800%;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+}
+
+.slide-track {
+  display: flex;
+  height: 100%;
+  animation: slide 10s infinite;
+}
+
+.slide-track img {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  30% {
+    transform: translateX(0);
+  }
+
+  40% {
+    transform: translateX(-100%);
+  }
+
+  45% {
+    transform: translateX(-100%);
+  }
+
+  50% {
+    transform: translateX(-200%);
+  }
+
+  60% {
+    transform: translateX(-200%);
+  }
+
+  75% {
+    transform: translateX(-300%);
+  }
+
+  90% {
+    transform: translateX(-300%);
+  }
+
+  100% {
+    transform: translateX(-400%);
+  }
+}
+
+
+.offer img {
+  width: 100%;
+}
+
+.ad {
+  padding-top: 50px;
+}
+
+.ad img {
+  width: 100%;
+}
+
+.saving {
+  padding-top: 50px
+}
+
+.lowest {
+  padding-top: 50px;
+}
+
+.lowest img {
+  width: 100%;
+}
+
+.lowest img:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.03);
+}
+
+.gallery {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.image1 {
+  padding-left: 10px;
+}
+
+.image3:hover {
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.image2:hover {
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.image1:hover {
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.gallery1{
+  margin-top:10%;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fitcheck{
+  margin-top:10%;
+}
+
+.fitcheck img{
+  width:100%;
+}
+
+.fitcheck img:hover{
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.mobivick{
+  padding-top:50px;
+}
+
+.mobivick img{
+  width: 100%;
+}
+
+.mobivick img:hover{
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.exclusive{
+ display:flex;
+}
+
+.exclusive img{
+  width:100%;
+}
+
+.gap{
+  display:flex;
+  justify-content: space-evenly;
+}
+ 
+.image1{
+  padding:0px;
+}
+
+.watches{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.main img{
+  width:100%;
+}
+
+.image4:hover{
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.rise img{
+  width:100%;
+}
+
+.sellers img{
+  width:100%;
+}
+
+.products{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.kids img{
+  width:100%;
+}
+
+.kids img:hover{
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.section{
+  display:flex;
+ justify-content:space-evenly;
+}
+
+.ethnic img{
+  width:100%;
+}
+
+.ethnic img:hover{
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.wear{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.AJIO img{
+  width:100%;
+}
+
+.AJIO img:hover{
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.conditions img{
+  width:100%;
+}
+
+.conditions img:hover{
+  transition: transform 1s ease-in-out;
+  transform: scale(1.03);
+}
+
+.quality{
+  background-color: white;
+  height:100px;
+  width:100%;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.one{
+  padding-top:50px ;
+}
+
+.two{
+  padding-top:50px ;
+}
+
+.three{
+  padding-top:50px ;
+}
+
+footer {
+  background-color: #2C3E50; 
+  color: #fff;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.footer-section {
+  width: 20%;
+}
+
+.footer-section h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.border{
+  margin-left:12%;
+  border-bottom: 1px white solid;
+  width:85%;
+}
+
+.payment{
+  margin-left:10%;
+  display:flex;
+  justify-content: space-between;
+}
+
+.net{
+  margin-left:5%;
+  display:flex;
+justify-content: space-between;
+ 
+}
+
+.net img{
+  width:50px;
+  height:50px;
+}
